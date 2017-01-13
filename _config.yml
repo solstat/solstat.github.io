@@ -44,4 +44,4 @@ scholar:
   repository: ./pdf
 
 # Exclude from site build
-exclude: ["Gemfile", "README.md", "build.sh", "deploy-to-master.sh"]
+exclude: ["Gemfile", "README.md", "build.sh", "deploy-to-master.sh", "Rakefile"]
