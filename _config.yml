@@ -10,8 +10,8 @@ relative_permalinks: true
 title:            SolStat
 tagline:          'Sunday Statistics'
 description:      'Just another weekend statistics club.'
-url:
-baseurl:
+url:              
+baseurl:          /
 
 paginate:         5
 
