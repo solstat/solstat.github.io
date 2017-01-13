@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>SolStat</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2017-01-13T12:57:28-08:00</updated>
+ <id></id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="/2017/01/13/hello-world/"/>
+   <updated>2017-01-13T00:00:00-08:00</updated>
+   <id>/2017/01/13/hello-world</id>
+   <content type="html">&lt;p&gt;First Post. Introduction to appear here.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
