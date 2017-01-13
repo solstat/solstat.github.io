@@ -1,0 +1,17 @@
+# Side Bar Site Navigation Links
+# name, url, rank (order to appear low -> high)
+
+- name: Home
+  icon: star
+  url: "/"
+  rank: 1
+
+- name: About
+  icon: user
+  url: "/about/"
+  rank: 2
+
+- name: GitHub
+  icon: github
+  url: "https://github.com/solstat"
+  rank: 3

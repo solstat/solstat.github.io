@@ -1,0 +1,17 @@
+---
+---
+{{ reference | replace_first: 'C. Aicher', '<b>C. Aicher</b>' }}
+{% if entry.link %}
+<a href="{{ entry.link }}"> [PDF] </a>
+{% else %}
+<a href="{{ site.url }}/pdf/{{ entry.key }}.pdf"> [PDF] </a>
+{% endif %}
+
+{% if entry.code %}
+<a href="{{ entry.code }}"> [Code] </a>
+{% endif %}
+
+<details style="display:inline">
+<summary>BibTex</summary>
+<pre> {{ entry.bibtex }}  </pre>
+</details>

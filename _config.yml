@@ -1,26 +1,47 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# Site Config
+title:            SolStat
+tagline:          'Sunday Statistics'
+description:      'Just another weekend statistics club.'
+url:
+baseurl:
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+# Custom Jekyll Gems
+gems:
+  - jekyll-sitemap # For generating a sitemap (for webcrawlers)
+  - jekyll/scholar # For bibtex
 
-github:
-  repo:           https://github.com/poole/hyde
+# Jekyll Scholar Bibtex Formatting
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_data
+  bibliography: publications.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+#  details_dir:    bibliography
+#  details_layout: bib_details.html
+#  details_link:   " Details"
+
+  query: "@*"
+
+  repository: ./pdf
+
+# Exclude from site build
+exclude: ["Gemfile", "README.md", "build.sh", "deploy-to-master.sh"]

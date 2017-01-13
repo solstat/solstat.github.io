@@ -1,0 +1,12 @@
+<nav class="sidebar-nav">
+
+    {% assign navitems = site.data.navigation | sort: 'rank' %}
+    {% for navitem in navitems %}
+      {% if navitem.icon == blank %}
+        <a class="sidebar-nav-item" href="{{ navitem.url }}">{{ navitem.name }}</a>
+      {% else %}
+        <a class="sidebar-nav-item" href="{{ navitem.url }}"><i class="fa fa-fw fa-{{ navitem.icon }}"></i>&nbsp;{{ navitem.name }}</a>
+      {% endif %}
+    {% endfor %}
+
+</nav>

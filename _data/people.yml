@@ -1,0 +1,20 @@
+# Team members details
+
+- name: Christopher Aicher
+  pic: christopher_aicher.png
+  position: Member
+  social:
+    - title: website
+      url: https://aicherc.github.io
+    - title: github
+      url: https://github.com/aicherc
+    - title: linkedin
+      url: https://www.linkedin.com/in/aicherc
+
+- name: K-2SO
+  pic: k2so.jpg
+  position: KX-series security droid
+  social:
+    - title: website
+      url: http://starwars.wikia.com/wiki/K-2SO
+
