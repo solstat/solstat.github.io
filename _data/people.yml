@@ -11,6 +11,17 @@
     - title: linkedin
       url: https://www.linkedin.com/in/aicherc
 
+- name: Kyle Lo
+  pic: kyle_lo.jpg
+  position: Member
+  social:
+    - title: website
+      url: https://kyleclo.github.io
+    - title: github
+      url: https://github.com/kyleclo
+    - title: linkedin
+      url: https://www.linkedin.com/in/kylelo
+
 - name: K-2SO
   pic: k2so.jpg
   position: KX-series security droid
