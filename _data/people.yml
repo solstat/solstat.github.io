@@ -33,6 +33,17 @@
     - title: linkedin
       url: www.linkedin.com/in/wesley-lee
 
+- name: Luca Weihs
+  pic: luca_weihs.jpg
+  position: Member
+  social:
+    - title: website
+      url: https://www.stat.washington.edu/~lucaw/
+    - title: github
+      url: https://github.com/Lucaweihs
+    - title: linkedin
+      url: https://www.linkedin.com/in/lucaweihs
+
 - name: K-2SO
   pic: k2so.jpg
   position: KX-series security droid
