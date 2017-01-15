@@ -43,6 +43,13 @@
       url: https://github.com/Lucaweihs
     - title: linkedin
       url: https://www.linkedin.com/in/lucaweihs
+      
+- name: Hoiyi Ng
+  pic: Ng.png
+  position: Member
+  social:
+    - title: linkedin
+      url: www.linkedin.com/in/hoiyi-ng
 
 - name: K-2SO
   pic: k2so.jpg
