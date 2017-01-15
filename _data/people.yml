@@ -22,6 +22,17 @@
     - title: linkedin
       url: https://www.linkedin.com/in/kylelo
 
+- name: Wesley Lee
+  pic: wesley_lee.jpg
+  position: Member
+  social:
+    - title: website
+      url: https://www.stat.washington.edu/people/wtlee/
+    - title: github
+      url: https://github.com/wesleytlee/
+    - title: linkedin
+      url: www.linkedin.com/in/wesley-lee
+
 - name: K-2SO
   pic: k2so.jpg
   position: KX-series security droid
