@@ -11,16 +11,16 @@
     - title: linkedin
       url: https://www.linkedin.com/in/aicherc
 
-- name: Kyle Lo
-  pic: kyle_lo.jpg
+- name: Amrit Dhar
+  pic: amrit_dhar.jpg
   position: Member
   social:
     - title: website
-      url: https://kyleclo.github.io
+      url: http://escience.washington.edu/people/amrit-dhar/
     - title: github
-      url: https://github.com/kyleclo
+      url: https://github.com/dunleavy005
     - title: linkedin
-      url: https://www.linkedin.com/in/kylelo
+      url: https://www.linkedin.com/in/amrit-dhar-7a89a213
 
 - name: Wesley Lee
   pic: wesley_lee.jpg
@@ -32,6 +32,17 @@
       url: https://github.com/wesleytlee/
     - title: linkedin
       url: www.linkedin.com/in/wesley-lee
+
+- name: Kyle Lo
+  pic: kyle_lo.jpg
+  position: Member
+  social:
+    - title: website
+      url: https://kyleclo.github.io
+    - title: github
+      url: https://github.com/kyleclo
+    - title: linkedin
+      url: https://www.linkedin.com/in/kylelo
 
 - name: Luca Weihs
   pic: luca_weihs.jpg
@@ -50,4 +61,3 @@
   social:
     - title: website
       url: http://starwars.wikia.com/wiki/K-2SO
-
