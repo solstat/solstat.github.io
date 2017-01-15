@@ -32,13 +32,13 @@
   float: left;
 }
 [class*='col-'] {
-  padding-right: 20px;
+  padding-right: 40px;
 }
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
 .col-sm-3 {
-    width: 33.33%;
+    width: 30%;
     min-width: 250px;
 }
 *, *:after, *:before {
