@@ -44,6 +44,14 @@
     - title: linkedin
       url: https://www.linkedin.com/in/kylelo
 
+- name: Hoiyi Ng
+  pic: Ng.jpg
+  position: Member
+  social:
+    - title: linkedin
+      url: www.linkedin.com/in/hoiyi-ng
+
+
 - name: Luca Weihs
   pic: luca_weihs.jpg
   position: Member
@@ -54,13 +62,6 @@
       url: https://github.com/Lucaweihs
     - title: linkedin
       url: https://www.linkedin.com/in/lucaweihs
-      
-- name: Hoiyi Ng
-  pic: Ng.png
-  position: Member
-  social:
-    - title: linkedin
-      url: www.linkedin.com/in/hoiyi-ng
 
 - name: K-2SO
   pic: k2so.jpg
