@@ -1,4 +1,4 @@
 #!/bin/sh
 git checkout source
-jekyll build
+bundle exec jekyll build
 rake deploy

@@ -1,24 +1,24 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Site Config
 title:            solstat
 tagline:          'Sunday Statistics'
 description:      'Just another weekend statistics club.'
-url:              
+url:
 baseurl:          /
 
 paginate:         5
 
 # Custom Jekyll Gems
 gems:
-  - jekyll-sitemap # For generating a sitemap (for webcrawlers)
-  - jekyll/scholar # For bibtex
+  - jekyll-sitemap  # For generating a sitemap (for webcrawlers)
+  - jekyll/scholar  # For bibtex
+  - jekyll-paginate # For blog
 
 # Jekyll Scholar Bibtex Formatting
 scholar:
@@ -44,4 +44,5 @@ scholar:
   repository: ./pdf
 
 # Exclude from site build
-exclude: ["Gemfile", "README.md", "build.sh", "deploy-to-master.sh", "Rakefile"]
+exclude: ["Gemfile", "Gemfile.lock",
+    "README.md", "build.sh", "deploy-to-master.sh", "Rakefile"]
